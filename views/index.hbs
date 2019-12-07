@@ -1,0 +1,61 @@
+<body>
+     <object data="images/recycle _logo.svg" type="image/svg+xml" id="main_logo" class="rotating"></object>
+    <h1 class="main-header">Recycle your PRESENT to SAVE your FUTURE</h1>
+    <main>
+        
+      
+          <div class="text-wrapper-heading">
+            <h3>RECYLING IN LAST FEW YEARS</h3>
+          
+          </div>
+      
+          <div class="img_wrapper">
+            <h1 class="hidden">percentage of recycling in different years</h1>
+            <object data="images/2015.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <object data="images/2016.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <object data="images/2017.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <object data="images/2018.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <object data="images/2019.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+
+           
+          </div>
+
+         
+        <h3>Recycled materials percentage in last 5 years</h3>
+        <span class="number" data-target="1"></span>
+        <section id="bar-chart" class="popover">
+          <p class="stats"></p><br>
+          <p class="recycle"></p>
+            {{#each info}}
+            <a href="{{ID}}" class="chart-link">
+              <span>
+                  <object data="images/bar-chart.svg" type="image/svg+xml"  id="chart"></object>
+              </span>
+            </a>
+            <div class="text"></div>
+            {{/info}}
+         
+        </section>
+
+        <section class="3Rs">
+          <div class="R">
+            <object data="images/reuse.svg" type="image/svg+xml" class="svg-graphic" class="symbol" id="reuse"></object>
+            <p>REUSE</p>
+          </div>
+
+          <div class="R">
+            <object data="images/reduce.svg" type="image/svg+xml" class="svg-graphic" class="symbol" id="reduce"></object>
+            <p>REDUCE</p>
+          </div>
+          <div class="R">
+            <object data="images/recycle.svg" type="image/svg+xml" class="svg-graphic" class="symbol" id="recycle"></object>
+            <p>RECYCLE</p>
+          </div>
+            
+
+        </section>
+       
+
+      
+    </main>
+    
