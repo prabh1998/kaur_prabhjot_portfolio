@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Prabhjot Kaur Gill</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<h1 class="hidden">Home Page</h1>
@@ -15,8 +15,10 @@
 		<header id="main-header">
 			<nav id="mainNav">
 				<h2 class="hidden">
+
 					Main Navigation Bar
 				</h2>
+				<button id="button"></button>
 				<div id="nav">
 					<ul id="Menu">
 						<li><a href="index.html">Home Page</a></li>
@@ -28,46 +30,135 @@
 
 			</nav>
 			<div id="logo">
-				<img src="images/portfolio logo.svg" alt="logo" id="Logo">
+				<img src="images/portfolio_logo.svg" alt="logo" id="Logo">
 
 			</div>
 
 		</header>
 		<div id="Main">
 			<!-- <section class=""></section> -->
-			<h1>Prabhjot Kaur Gill</h1>
+			<!-- <h1>Prabhjot Kaur Gill</h1> -->
 			<p>Desiging and Developing Websites which are beautiful and Interactive to attaract the audience</p>
+			<img src="images/my-pic.svg" alt="my pic">
 		</div>
 
-		<div class="Interests">
-			<h2>Interests</h2>
-			<section class="Interest-icons">
+		<section class="Interests">
+			<h2> MY HOBBIES</h2>
+			<div id="flex-1">
+
+			<div class="Interest-icons">
 				<img src="images/laptop.svg" alt="pc svg" class="icon">
-				<h2> DESIGNING</h2>
-				<
-			</section>
-			<section class="Interest-icons">
+				<h3> DESIGNING </h3>
+				
+			</div>
+			<div class="Interest-icons">
 				<img src="images/cooking.svg" alt="pc svg" class="icon">
-				<h2> COOKING</h2>
+				<h3> COOKING</h3>
 				
-			</section>
-			<section class="Interest-icons">
-				<img src="images/shopping.svg" alt="pc svg" class="icon">
-				<h2>SHOPING</h2>
-				
-			</section>
-			<section class="Interest-icons">
-				<img src="images/listening_music.svg" alt="pc svg" class="icon">
-				<h2>LISTENING MUSIC</h2>
-				
-			</section>
+			</div>
 		</div>
-		<div id="Projects">
+		<div id="flex-2">
+			<div class="Interest-icons">
+				<img src="images/shopping.svg" alt="pc svg" class="icon">
+				<h3>SHOPING</h3>
+				
+			</div>
+			<div class="Interest-icons">
+				<img src="images/listening_music.svg" alt="pc svg" class="icon">
+				<h3>MUSIC</h3>
+				
+			</div>
+		</div>
+		</section>
+
+		<div id="aboutInfo">
+			<h2>Prabhjot Kaur Gill</h2>
+			<h3>ABOUT ME</h3>
+			<p><span class="bigger">I</span>am 21 year old and interactive media designer and developer from London,Ontario.I am persuing IDP3 (interactive media design) from Fanshawe Downtown Campus.Aside from this I am keen interested in cooking , listening music and shoping I love to buy new stuff.I love to spend time with my family.</p>
+			<img src="images/about_me.svg" alt="about me">
+		</div>
+		<section id="Projects">
 			<h2>WHAT I DID</h2>
 			<h3>DESIGNER & DEVELEOPER</h3>
-			
+			<div class="hackathon">
+				<!-- <h2 class="hidden">In hackathon </h2> -->
+				<p>I worked in team and we build up a website for a thermosystem.This was new technolgy which allow people to access their home from any where as this therosystem allows them to connect it with their phones.</p>
+				<img src="images/boxes_mockup_provisional.png" alt="hackathon project">
+			</div>
+			<div class="Interactive-poster">
+				<p>In this project I collect the data for recycling different materials every year and analize it and come up with a figures which are expressed through icons such as bar charts.</p>
+				<img src="images/infographic poster.svg" alt="interactive poster">
+			</div>
+			<div class="organ-donation">
+				<p>Organ donation was a campiagn for which I created a poster and presentation to aware the people about it and what they will receive if they will join it.</p>
+				<img src="images/Organ_donation.svg" alt="hackathon project">
+			</div>
+			<div class="ikea-ad">
+				<p>In hackathon I worked in team and we build up a website for a thermosystem.This was new technolgy which allow people to access their home from any where as this therosystem allows them to connect it with their phones.</p>
+				<img src="images/ikea_ad.svg" alt="hackathon project">
+			</div>
+			<div class="got">
+				<p>In hackathon I worked in team and we build up a website for a thermosystem.This was new technolgy which allow people to access their home from any where as this therosystem allows them to connect it with their phones.</p>
+				<img src="images/got_video.svg" alt="Game of Thrones">
+
+			</div>
+			<div class="traa-association">
+				<p>In hackathon I worked in team and we build up a website for a thermosystem.This was new technolgy which allow people to access their home from any where as this therosystem allows them to connect it with their phones.</p>
+				<img src="images/trra.svg" alt="traa association">
+			</div>
+		</section>
+		<div class="self-video">
+			<h2>Portfolio video</h2>
+
+			            <video muted autoplay controls>
+			            	<source src="video/promotional_video.mp4" type="video/mp4">
+			            </video>
 		</div>
 
+		<section id="contact-Form" >
+					<h2 class="Contact">Let's Chat</h2>
 
+					<form action="/action_page.php" class="form">
+							<label for="fname">First Name</label><br>
+							<input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+							<label for="lname">Last Name</label><br>
+							<input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+							<label for="email">Email Address</label><br>
+							<input type="text" id="email" name="Email Address" placeholder="Your Email Address.."><br>
+
+							<label for="message">Message</label><br>
+							<textarea name="message" id="message" placeholder="Write your message here....."></textarea><br>
+
+							<input type="submit" value="Submit" id="submit">
+						</form>
+				
+		</section>
+		
+
+		<footer id="main-footer">
+			<!-- <h2 class="hidden">
+				<ul class="social-media">
+					<li><a href="#"></a><img src="images/facebook.svg"></li>
+					<li><a href="#"><img src="images/instagram.svg"></a></li>
+					<li><a href="#"><img src="images/twitter.svg"></a></li>
+					<li><a href="#"><img src="images/linkedin.svg"></a></li>
+				</ul> -->
+				<div class="social-media">
+					<!-- <h2>Social Media</h2> -->
+					<img src="images/twitter.svg" alt="twitter icon">
+					<img src="images/facebook.svg" alt="facebook icon">
+					<img src="images/instagram.svg" alt="instagram icon">
+					<img src="images/linkedin.svg" alt="linkedin icon">
+
+				</div>
+				<div class="copyRight">
+					<h2>All Rights Reserved © 2019</h2>
+				</div>
+			
+		</footer>
+	</div>
 </body>
+
 </html>
