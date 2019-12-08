@@ -1,0 +1,13 @@
+<section id="Projects">
+      {{#each data}}
+                    <div="{{ID}}">
+                        <h2>{{ Title }}</h2>
+                        <img class="pictures" src="images/{{ Images }}" alt="image">
+
+                        <button href="/video/{{ ID }}">View More</button>
+                        <video class="hidden" src="/video/{{Video}}"></video>
+
+                        <p>{{ Description }}</p>
+                    </div>
+                    {{/each}}
+</section>
