@@ -63,9 +63,16 @@ p
  font-family: 'Gupter', serif;
 }
 
-.siteContainer{
+.siteContainer
+{
   background-color: lightcyan;
 }
+
+#main-header
+{
+  background-color: lightcyan;
+}
+
 
 
 /*  index  */
