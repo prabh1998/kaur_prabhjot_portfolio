@@ -66,8 +66,6 @@ p
 .siteContainer{
   background-color: lightcyan;
 }
-#Main h1 {
- /* background: url(../images/background_img.svg ) center no-repeat;*/}
 
 
 /*  index  */
@@ -144,10 +142,7 @@ font-size: 18px;}
 { 
 font-size: 18px;}
 
-.Interests
-{
- 
-}
+
 .Interests h2
 {
   font-style: bold;
@@ -216,11 +211,7 @@ padding: 5px;
  border-radius: 2px;
 }
 
-.organ-donation img{
 
-
-  /*! border-radius: 2px; */
-}
 .ikea-ad img{
   border-radius: 2px;
 }
@@ -316,7 +307,7 @@ textarea{
   margin-top: 3%;
   border-top: 2px solid grey;
  line-height: 2px;
-  
+   padding-bottom: 20px; 
 }
 .social-media {
 /*   margin: 0 auto; */
@@ -333,10 +324,14 @@ textarea{
   
 }
 
+#contact-Form img
+  {
+    width: 70%;
+    margin-left: 15%;
+  }
+
 .copyRight{
   font-size: 5px;
-  margin-bottom: 5%;
-
 }
 
 
@@ -387,23 +382,7 @@ font-size: 24px;}
   font-size: 34px;
 
 }
- #flex-1{
-   /*! display: flex; */
-  /*! flex-direction: row; */
-   /*! margin-right: 20%; */
-  }
-#flex-2{
-   /*! display: flex; */
-  /*! flex-direction: row; */
-  }
-.Interest-icons{
-/*   margin-top: 8%; */
-  /*! width: 95px; */
-  /*! height: 100px; */
 
-  
-  
-}
 #aboutInfo{
   margin: 0 auto;
 }
@@ -618,7 +597,49 @@ textarea{
 
 
 @media screen and (min-width: 760px) {
-
+  
+  #flex-1
+  {
+    display: flex;
+    text-align: center;
+  }
+  
+  .Interest-icons
+  {
+    margin-left: 25%;
+    width: 100px;
+    margin-top: 50px;
+  }
+  
+  
+  #flex-2
+  {
+    display: flex;
+    text-align: center;
+  } 
+  
+  #aboutInfo h2
+  {
+    font-size: 32px;
+  }
+  
+  .traa-association img
+  {
+    width: 55%;
+  }
+  
+  
+  
+  .social-media
+  {
+    margin-left: 35%;
+  }
+  
+  .copyRight
+  {
+    margin-left: 40%;
+  }
+ 
 
   }
 
@@ -643,6 +664,7 @@ textarea{
   #Main p
   {
     width: 40%;
+    margin-top: 50px;
   }
   
   #Main img
@@ -650,6 +672,7 @@ textarea{
     width: 25%;
     margin-left: 0;
   }
+  
   
   #flex-1
   {
@@ -681,7 +704,8 @@ textarea{
   {
     width: 40%;
     font-size:18px;
-    line-height: 30px;
+    line-height: 50px;
+    margin-top: 50px;
   }
   
   #flex-4
@@ -701,20 +725,47 @@ textarea{
    height: 50%;
   }
   
-  .organ-donation
-  {
-    /*! margin-top: 30px; */
-  }
- 
+
   #flex-5
   {
     display: flex;
     justify-content: space-evenly;
+    margin-top: -100px;
   }
+  
+  .projects p
+  {
+    margin-bottom: 30px;
+  }
+  
+  #flex-6
+  {
+    display: flex;
+  }
+  
+  #flex-6 img
+  {
+    width: 40%;
+  }
+  
+  .form
+  {
+    width: 50%;
+  }
+  
+  .social-media
+  {
+    margin-left: 40%;
+  }
+  
+  .copyRight
+  {
+    margin-left: 44%;
+  }
+  
+ 
+  
 
-  
-  
-  
   
   
   
