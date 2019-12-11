@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// const path = require('path');
+const path = require('path');
 
 const sql = require('../utils/sql');
 
@@ -16,7 +16,7 @@ router.get('/', function (req, res, next) {
 
 router.get('/portfolio', function (req, res, next) {
 
-  let query = `SELECT * FROM tbl_database`;
+  let query = `SELECT * FROM tbl_database WHERE id="${req.params.target}"`;
 
   sql.query(query, (err, result) => {
     if (err) { console.log(err); } 
@@ -26,7 +26,7 @@ router.get('/portfolio', function (req, res, next) {
     res.render('portfolio', { title: 'Portfolio' , project: result});
   })
   
-  res.sendFile((path.join(__dirname, "../views/portfolio.html")));
+  // res.sendFile((path.join(__dirname, "../views/portfolio.html")));
 
   
 
